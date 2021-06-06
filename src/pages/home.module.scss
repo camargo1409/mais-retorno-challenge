@@ -1,0 +1,58 @@
+.contentContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.authContent{
+    flex: 1;
+    padding: 3.75rem 5rem;
+
+    h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    p{
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        a{
+            font-weight: 700;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        
+    }
+
+
+
+    .socialMessage{
+        text-align: center;
+    }
+
+    .socialButtons{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 3.75rem;
+        button{
+            display: flex;
+            align-items: center;
+            background: var(--blue-900);
+            padding: 5px 20px;
+            border-radius: 1.25rem;
+            color: var(--white);
+            font-size: 0.8125rem;
+            font-weight: 700;
+            border:none;
+            img{
+                margin-left: 0.5rem;
+                width: 0.8125rem;
+            }
+
+            &:hover{
+                filter:brightness(2)
+            }
+        }
+    }
+}

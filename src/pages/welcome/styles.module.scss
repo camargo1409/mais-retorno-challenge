@@ -1,0 +1,30 @@
+.contentContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.welcomeContent{
+    flex: 1;
+    padding: 3.75rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p{
+        margin-top: 1rem;
+    }
+
+    .accessButton{
+        background: var(--green-500);
+        border-radius: 1.25rem;
+        padding: 0.625rem 1.875rem;
+        border: none;
+        font-weight: 700;
+        transition: filter 0.2s;
+        &:hover{
+            filter:brightness(0.9);
+        }
+    }
+}
+
